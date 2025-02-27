@@ -61,5 +61,7 @@ The graph will display the stock's closing prices with buy/sell markers. Hoverin
 To build and run the project with Docker:
 
 `docker build -t smag:latest . `
+
 `./runOnceDocker.sh `
+
 `python manage.py runserver `
