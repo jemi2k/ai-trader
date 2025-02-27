@@ -21,7 +21,7 @@ TensorFlow:
 Keras: 
 Seaborn: 
 Yahoo Finance: 
-Pandas: 
+Pandas:
 Matplotlib: 
 
 Usage
