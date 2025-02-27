@@ -12,20 +12,31 @@ Despite its name, the Evolution Strategy algorithm is one of the simplest method
 In stock trading, the agent interacts with an environment (such as a stock price chart), taking actions like buying, selling, or holding. The goal is to maximize returns by finding the best possible parameters for the agent's neural network.
 
 Requirements
+
 To run the project, ensure you have the following dependencies installed:
 
 Python ^3.8.0: 
+
 Django:
+
 Numpy: 
+
 TensorFlow: 
+
 Keras: 
+
 Seaborn: 
+
 Yahoo Finance: 
+
 Pandas:
+
 Matplotlib: 
 
 Usage
+
 Starting the Server
+
 Start the Django server using the following command:
 
 
