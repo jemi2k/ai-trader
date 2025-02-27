@@ -14,15 +14,15 @@ In stock trading, the agent interacts with an environment (such as a stock price
 Requirements
 To run the project, ensure you have the following dependencies installed:
 
-Python 3.6.2: Download
-Django: Install
-Numpy: Install
-TensorFlow: Install
+Python ^3.8.0: 
+Django:
+Numpy: 
+TensorFlow: 
 Keras: 
 Seaborn: 
-Yahoo Finance: Install
-Pandas: Install
-Matplotlib: Install
+Yahoo Finance: 
+Pandas: 
+Matplotlib: 
 
 Usage
 Starting the Server
