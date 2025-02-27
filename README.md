@@ -33,7 +33,7 @@ Pandas:
 
 Matplotlib: 
 
-Usage
+### Usage
 
 Starting the Server
 
