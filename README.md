@@ -15,23 +15,7 @@ Requirements
 
 To run the project, ensure you have the following dependencies installed:
 
-Python ^3.8.0: 
-
-Django:
-
-Numpy: 
-
-TensorFlow: 
-
-Keras: 
-
-Seaborn: 
-
-Yahoo Finance: 
-
-Pandas:
-
-Matplotlib: 
+Python ^3.8.0, Django, Numpy, TensorFlow, Keras, Seaborn, Yahoo Finance, Pandas, Matplotlib 
 
 ### Usage
 
@@ -45,7 +29,6 @@ Start the Django server using the following command:
 Once the server is running, you'll have three options on the main page:
 
 1. Stock Info
-
 Enter the stock symbol and the duration for which you'd like to fetch the data. The information will be retrieved using the Yahoo Finance library and displayed as a graph using Matplotlib and mpld3.
 The data table shows the stock details, and the closing prices are graphed. Hovering over a point will display a tooltip with the date and closing price.
 
