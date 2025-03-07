@@ -28,19 +28,22 @@ Start the Django server using the following command:
 
 Once the server is running, you'll have three options on the main page:
 
-1. Stock Info
+1. Stock Info:
+   
 Enter the stock symbol and the duration for which you'd like to fetch the data. The information will be retrieved using the Yahoo Finance library and displayed as a graph using Matplotlib and mpld3.
 The data table shows the stock details, and the closing prices are graphed. Hovering over a point will display a tooltip with the date and closing price.
 
-2. Prediction
+3. Prediction:
+   
 Input the stock symbol, training period, number of simulations to run, and the number of future days to predict.
 The simulation results are graphed, and hovering over the points will display tooltips with the date and closing price.
 
-3. Trading Agent
+4. Trading Agent:
+   
 Provide the stock symbol, data period, initial fund, and the number of days to skip between buy/sell actions.
 The graph will display the stock's closing prices with buy/sell markers. Hovering over a marker will show the date and the action taken on that day.
 
-4. Docker Usage
+## Docker Usage
 To build and run the project with Docker:
 
 `docker build -t smag:latest . `
